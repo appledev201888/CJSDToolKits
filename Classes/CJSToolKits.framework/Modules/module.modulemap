@@ -1,0 +1,6 @@
+framework module CJSToolKits {
+  umbrella header "CJSToolKits.h"
+
+  export *
+  module * { export * }
+}
