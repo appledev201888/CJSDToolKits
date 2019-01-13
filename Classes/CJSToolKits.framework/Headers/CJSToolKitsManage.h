@@ -6,11 +6,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJSToolKitsManage : NSObject
 
-+ (CJSToolKitsManage *)sharedManager;
-
-- (void)CJSToolKitsbegin:(UIView *)view;
-
-- (void)CJSToolKitsend:(UIView *)view;
++ (void)CJSToolKitsManage:(void(^)(NSString *temp))block;
 
 @end
 
